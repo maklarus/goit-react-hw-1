@@ -1,0 +1,63 @@
+.profileWrapper {
+  margin: 0 auto;
+  width: 20%;
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.avatarWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 50%;
+  background-color: #2a2a2a;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tagLocationWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: darkgray;
+  margin-bottom: 15px;
+}
+
+.statsList {
+  display: flex;
+  width: 100%;
+}
+
+.statsListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #d3d3d3;
+  outline: 1px solid #808080;
+  width: 100%;
+  height: 50px;
+}
+
+.statsListItem:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.statsListItem:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.statsData {
+  font-weight: bold;
+}
